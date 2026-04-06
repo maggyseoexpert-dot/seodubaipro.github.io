@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Dubai Pro — #1 SEO Agency Dubai</title>
+<meta name="description" content="SEO Dubai Pro is a trusted SEO Agency Dubai. Proven, data-driven strategies to rank your business higher on Google. Get your free site audit today!">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0a1628;--navy2:#0d1f3c;--navy3:#1a3060;--blue:#2563eb;--blue2:#1d4ed8;--cyan:#38bdf8;--white:#fff;--gray:#64748b;--light:#f0f4ff;--border:#e2e8f0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--navy);overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+/* NAV */
+#nav{background:var(--navy);padding:0 48px;display:flex;justify-content:space-between;align-items:center;height:68px;position:sticky;top:0;z-index:9999;box-shadow:0 2px 24px rgba(0,0,0,.35)}
+.logo{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--white)}.logo span{color:var(--cyan)}
+.nl{display:flex;gap:28px;list-style:none;align-items:center}
+.nl a{color:rgba(255,255,255,.78);font-size:14px;font-weight:500;transition:color .2s}.nl a:hover{color:var(--cyan)}
+.ncta{background:linear-gradient(90deg,var(--blue),var(--blue2));color:var(--white)!important;padding:9px 22px;border-radius:7px;font-weight:700!important}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
+.ham span{width:24px;height:2px;background:var(--white);border-radius:2px}
+.mob{display:none;position:fixed;top:68px;left:0;right:0;background:var(--navy2);z-index:9998;padding:20px 28px;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.mob.open{display:block}
+.mob a{display:block;color:rgba(255,255,255,.8);padding:11px 0;font-size:15px;border-bottom:1px solid rgba(255,255,255,.08)}
+.mob a:last-child{border:none;margin-top:10px;background:linear-gradient(90deg,var(--blue),var(--blue2));padding:12px 18px;border-radius:8px;text-align:center;color:var(--white)!important;font-weight:700}
+/* HERO */
+#hero{background:linear-gradient(140deg,var(--navy) 0%,var(--navy2) 55%,var(--navy3) 100%);padding:96px 48px 76px;text-align:center;position:relative;overflow:hidden}
+#hero::before{content:'';position:absolute;top:-120px;right:-120px;width:600px;height:600px;background:radial-gradient(circle,rgba(37,99,235,.14) 0%,transparent 68%);pointer-events:none}
+.hbadge{display:inline-flex;align-items:center;gap:8px;background:rgba(56,189,248,.13);border:1px solid rgba(56,189,248,.28);color:var(--cyan);padding:7px 18px;border-radius:50px;font-size:13px;font-weight:600;margin-bottom:26px}
+#hero h1{font-family:'Syne',sans-serif;font-size:clamp(32px,5.5vw,60px);font-weight:800;color:var(--white);line-height:1.1;margin-bottom:20px;max-width:800px;margin-left:auto;margin-right:auto}
+#hero h1 em{color:var(--cyan);font-style:normal}
+.hsub{font-size:17px;color:rgba(255,255,255,.72);max-width:600px;margin:0 auto 38px;line-height:1.75}
+.hbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:60px}
+.bm{background:linear-gradient(90deg,var(--blue),var(--blue2));color:var(--white);padding:15px 38px;border-radius:9px;font-size:15px;font-weight:700;transition:transform .2s,box-shadow .2s;box-shadow:0 5px 22px rgba(37,99,235,.42)}
+.bm:hover{transform:translateY(-3px);box-shadow:0 10px 32px rgba(37,99,235,.52)}
+.bg{background:transparent;color:var(--white);padding:15px 38px;border-radius:9px;font-size:15px;font-weight:600;border:1.5px solid rgba(255,255,255,.26);transition:all .2s}
+.bg:hover{background:rgba(255,255,255,.09)}
+.hstats{display:flex;justify-content:center;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.1);padding-top:38px}
+.hs{padding:0 36px;text-align:center;border-right:1px solid rgba(255,255,255,.1)}.hs:last-child{border-right:none}
+.hsn{font-family:'Syne',sans-serif;font-size:38px;font-weight:800;color:var(--cyan);display:block}
+.hsl{font-size:13px;color:rgba(255,255,255,.55);margin-top:4px}
+/* SECTIONS */
+.sec{padding:80px 48px}
+.tag{font-size:11px;font-weight:700;color:var(--blue);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:12px}
+.st{font-family:'Syne',sans-serif;font-size:clamp(24px,3.5vw,42px);font-weight:800;color:var(--navy);line-height:1.2;margin-bottom:14px}
+.st span{color:var(--blue)}
+.ss{font-size:16px;color:var(--gray);max-width:600px;line-height:1.75}
+.tc{text-align:center}.tc .ss{margin:0 auto}
+/* PROBLEMS */
+#problems{background:var(--light)}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;margin-top:48px}
+.pc{background:var(--white);border-radius:12px;padding:28px;border-left:4px solid #ef4444;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.pc .pi{font-size:30px;margin-bottom:12px}
+.pc h3{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;margin-bottom:8px}
+.pc p{font-size:14px;color:var(--gray);line-height:1.65}
+/* SERVICES */
+#services{background:var(--white)}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;margin-top:48px}
+.sc{background:var(--white);border-radius:14px;padding:30px;border:1.5px solid var(--border);transition:all .28s;position:relative;overflow:hidden}
+.sc::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--cyan));transform:scaleX(0);transform-origin:left;transition:transform .32s}
+.sc:hover{box-shadow:0 12px 40px rgba(0,0,0,.1);border-color:rgba(37,99,235,.2);transform:translateY(-3px)}
+.sc:hover::after{transform:scaleX(1)}
+.si{width:50px;height:50px;background:linear-gradient(135deg,var(--navy),var(--navy2));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:18px}
+.sc h3{font-family:'Syne',sans-serif;font-size:18px;font-weight:700;margin-bottom:10px}
+.sc p{font-size:14px;color:var(--gray);line-height:1.7;margin-bottom:18px}
+.sl{color:var(--blue);font-size:14px;font-weight:700;display:inline-flex;align-items:center;gap:6px;transition:gap .2s}.sl:hover{gap:11px}
+/* WHY */
+#why{background:linear-gradient(140deg,var(--navy) 0%,var(--navy2) 100%)}
+#why .tag{color:var(--cyan)}#why .st{color:var(--white)}#why .ss{color:rgba(255,255,255,.65)}
+.wgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:48px}
+.wc{background:rgba(255,255,255,.06);border-radius:12px;padding:28px;border:1px solid rgba(255,255,255,.1);transition:background .22s}
+.wc:hover{background:rgba(255,255,255,.11)}
+.wn{font-family:'Syne',sans-serif;font-size:42px;font-weight:800;color:var(--cyan);margin-bottom:12px}
+.wc h3{font-size:16px;font-weight:600;color:var(--white);margin-bottom:8px}
+.wc p{font-size:13px;color:rgba(255,255,255,.55);line-height:1.65}
+/* PROCESS */
+#process{background:var(--light)}
+.psteps{display:grid;grid-template-columns:repeat(5,1fr);margin-top:48px}
+.pstep{text-align:center;padding:24px 14px;position:relative}
+.pstep:not(:last-child)::after{content:'›';position:absolute;right:-6px;top:30px;font-size:26px;color:var(--blue);font-weight:900}
+.psn{width:54px;height:54px;background:linear-gradient(135deg,var(--blue),var(--blue2));border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--white);margin:0 auto 18px;box-shadow:0 5px 16px rgba(37,99,235,.35)}
+.pstep h3{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-bottom:7px}
+.pstep p{font-size:13px;color:var(--gray);line-height:1.6}
+/* RESULTS */
+#results{background:var(--white)}
+.rgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px;margin-top:48px}
+.rc{background:linear-gradient(140deg,var(--navy),var(--navy2));border-radius:14px;padding:32px;text-align:center}
+.rn{font-family:'Syne',sans-serif;font-size:46px;font-weight:800;color:var(--cyan);display:block}
+.rl{font-size:15px;color:rgba(255,255,255,.82);margin-top:9px;font-weight:500}
+.rd{font-size:13px;color:rgba(255,255,255,.45);margin-top:5px}
+/* INDUSTRIES */
+#ind{background:var(--light)}
+.igrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:13px;margin-top:48px}
+.ic{background:var(--white);border-radius:10px;padding:20px 14px;text-align:center;border:1.5px solid var(--border);transition:all .22s}
+.ic:hover{background:var(--navy);border-color:var(--navy)}
+.ic:hover .iname{color:var(--white)}
+.iicon{font-size:28px;margin-bottom:9px}
+.iname{font-size:13px;font-weight:600;transition:color .22s}
+/* TESTI */
+#testi{background:var(--white)}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;margin-top:48px}
+.tc2{background:var(--white);border-radius:14px;padding:30px;box-shadow:0 4px 18px rgba(0,0,0,.08);border:1px solid var(--border)}
+.stars{color:#f59e0b;font-size:18px;margin-bottom:16px;letter-spacing:2px}
+.tt{font-size:15px;color:#374151;line-height:1.75;margin-bottom:20px;font-style:italic}
+.ta{display:flex;align-items:center;gap:12px}
+.av{width:44px;height:44px;background:linear-gradient(135deg,var(--blue),var(--cyan));border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:800;color:var(--white);font-size:16px;flex-shrink:0}
+.an{font-weight:700;font-size:15px}.ar{font-size:13px;color:#94a3b8;margin-top:2px}
+/* FAQ */
+#faq{background:var(--light)}
+.fl{max-width:760px;margin:48px auto 0}
+.fi{background:var(--white);border-radius:11px;margin-bottom:11px;border:1.5px solid var(--border);overflow:hidden}
+.fq{padding:18px 24px;font-weight:600;font-size:15px;color:var(--navy);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px;user-select:none;transition:background .2s}
+.fq:hover,.fi.open .fq{background:var(--light)}
+.fi2{color:var(--blue);font-size:22px;font-weight:300;transition:transform .32s;flex-shrink:0;line-height:1}
+.fa{max-height:0;overflow:hidden;transition:max-height .38s ease,padding .3s ease;font-size:15px;color:var(--gray);line-height:1.75;padding:0 24px}
+.fi.open .fa{max-height:220px;padding:0 24px 20px}
+.fi.open .fi2{transform:rotate(45deg)}
+/* CONTACT */
+#contact{background:linear-gradient(140deg,var(--navy) 0%,var(--navy3) 100%);padding:80px 48px;text-align:center;position:relative;overflow:hidden}
+#contact::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 40%,rgba(37,99,235,.15) 0%,transparent 65%);pointer-events:none}
+#contact h2{font-family:'Syne',sans-serif;font-size:clamp(26px,4.5vw,48px);font-weight:800;color:var(--white);margin-bottom:14px}
+#contact h2 span{color:var(--cyan)}
+.csub{font-size:17px;color:rgba(255,255,255,.7);max-width:560px;margin:0 auto 40px;line-height:1.75}
+.cf{background:rgba(255,255,255,.07);border-radius:14px;padding:32px;max-width:560px;margin:0 auto;border:1px solid rgba(255,255,255,.11)}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-bottom:11px}
+.fi3{background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.14);border-radius:8px;padding:12px 16px;color:var(--white);font-size:14px;font-family:'DM Sans',sans-serif;outline:none;width:100%;transition:border-color .2s}
+.fi3::placeholder{color:rgba(255,255,255,.38)}
+.fi3:focus{border-color:var(--blue)}
+.fs{background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.14);border-radius:8px;padding:12px 16px;color:rgba(255,255,255,.45);font-size:14px;font-family:'DM Sans',sans-serif;outline:none;width:100%;cursor:pointer}
+.fs option{background:var(--navy2);color:var(--white)}
+textarea.fi3{resize:vertical;min-height:95px;margin-bottom:11px}
+.fm{display:none;padding:12px;border-radius:8px;margin-bottom:11px;font-size:14px;font-weight:600;text-align:center}
+.fsub{width:100%;background:linear-gradient(90deg,var(--blue),var(--blue2));color:var(--white);font-size:15px;font-weight:700;padding:14px;border-radius:8px;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;transition:transform .2s,box-shadow .2s;box-shadow:0 5px 20px rgba(37,99,235,.42)}
+.fsub:hover{transform:translateY(-2px);box-shadow:0 9px 26px rgba(37,99,235,.55)}
+.fsub:disabled{opacity:.65;cursor:not-allowed;transform:none}
+.cinfo{display:flex;justify-content:center;gap:36px;flex-wrap:wrap;margin-top:40px}
+.ci{text-align:center}
+.cico{font-size:24px;margin-bottom:7px}
+.clb{font-size:11px;color:rgba(255,255,255,.42);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:4px}
+.cv{font-size:14px;color:rgba(255,255,255,.88);font-weight:500}
+.cv a{color:rgba(255,255,255,.88)}.cv a:hover{color:var(--cyan)}
+/* FOOTER */
+#footer{background:var(--navy);padding:56px 48px 26px}
+.fgrid{display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr;gap:44px;margin-bottom:44px}
+.fbrand{font-family:'Syne',sans-serif;font-size:21px;font-weight:800;color:var(--white);display:block;margin-bottom:14px}
+.fbrand span{color:var(--cyan)}
+.fgrid > div > p{font-size:14px;line-height:1.75;color:rgba(255,255,255,.52);max-width:280px}
+.fgrid h4{font-family:'Syne',sans-serif;font-size:12px;font-weight:700;color:var(--white);margin-bottom:16px;text-transform:uppercase;letter-spacing:1.5px}
+.fgrid ul{list-style:none}
+.fgrid ul li{margin-bottom:10px}
+.fgrid ul li a{font-size:14px;color:rgba(255,255,255,.52);transition:color .2s}
+.fgrid ul li a:hover{color:var(--cyan)}
+.fbot{border-top:1px solid rgba(255,255,255,.08);padding-top:22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.fbot p{font-size:13px;color:rgba(255,255,255,.33)}
+.fbadges{display:flex;gap:10px}
+.fbadge{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:5px;padding:5px 12px;font-size:12px;color:rgba(255,255,255,.48)}
+/* ANIMATIONS */
+@keyframes fu{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
+.hbadge{animation:fu .6s ease both}
+#hero h1{animation:fu .65s .08s ease both}
+.hsub{animation:fu .65s .16s ease both}
+.hbtns{animation:fu .65s .24s ease both}
+.hstats{animation:fu .65s .36s ease both}
+/* RESPONSIVE */
+@media(max-width:960px){.fgrid{grid-template-columns:1fr 1fr}.psteps{grid-template-columns:repeat(3,1fr)}.pstep:nth-child(3)::after{display:none}}
+@media(max-width:768px){#nav{padding:0 20px}.nl{display:none}.ham{display:flex}.sec{padding:60px 20px}#hero{padding:68px 20px 60px}#contact{padding:60px 20px}#footer{padding:44px 20px 22px}.fr{grid-template-columns:1fr}.hs{padding:0 18px}.psteps{grid-template-columns:1fr 1fr}.pstep::after{display:none}}
+@media(max-width:480px){.fgrid{grid-template-columns:1fr}.hstats{flex-direction:column;gap:18px;border-top:none;padding-top:20px}.hs{border-right:none;border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:14px}.hs:last-child{border-bottom:none}.cinfo{flex-direction:column;gap:20px}.psteps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="https://seodubaipro.com/" class="logo">SEO Dubai <span>Pro</span></a>
+  <ul class="nl">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#testi">Reviews</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contact" class="ncta">Free Audit</a></li>
+  </ul>
+  <div class="ham" id="ham"><span></span><span></span><span></span></div>
+</nav>
+<div class="mob" id="mob">
+  <a href="#services">Services</a>
+  <a href="#why">Why Us</a>
+  <a href="#results">Results</a>
+  <a href="#testi">Reviews</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Get Free Audit →</a>
+</div>
+
+<section id="hero">
+  <div class="hbadge">🏆 Dubai's Most Trusted SEO Agency</div>
+  <h1>Tired of Being <em>Invisible Online?</em><br>Our SEO Agency Dubai Fixes That.</h1>
+  <p class="hsub">Stop losing customers to competitors who rank above you. We use proven, data-driven SEO strategies to get your business to the top of Google — and turn that traffic into measurable revenue.</p>
+  <div class="hbtns">
+    <a href="#contact" class="bm">Get Free Site Audit →</a>
+    <a href="#services" class="bg">Explore Our Services</a>
+  </div>
+  <div class="hstats">
+    <div class="hs"><span class="hsn">200+</span><div class="hsl">Businesses Ranked</div></div>
+    <div class="hs"><span class="hsn">97%</span><div class="hsl">Client Retention Rate</div></div>
+    <div class="hs"><span class="hsn">340%</span><div class="hsl">Avg Traffic Increase</div></div>
+    <div class="hs"><span class="hsn">10+</span><div class="hsl">Years Experience</div></div>
+  </div>
+</section>
+
+<section id="problems" class="sec">
+  <div class="tc"><div class="tag">The Problem</div><h2 class="st">Is Your Business Suffering From This?</h2><p class="ss">Dubai is one of the most competitive digital markets in the world. Without the right SEO strategy, your business is invisible to the customers who need you most.</p></div>
+  <div class="pgrid">
+    <div class="pc"><div class="pi">📉</div><h3>Not Ranking on Google</h3><p>Your competitors appear on page one while your business is buried — or completely absent from search results.</p></div>
+    <div class="pc"><div class="pi">📍</div><h3>Invisible on Google Maps</h3><p>Local customers cannot find you because your Google Business Profile is incomplete or unoptimised.</p></div>
+    <div class="pc"><div class="pi">💸</div><h3>Wasting Budget on Ads</h3><p>Spending thousands monthly on Google Ads with no long-term visibility — traffic disappears when you stop paying.</p></div>
+    <div class="pc"><div class="pi">🔇</div><h3>Website Gets No Traffic</h3><p>Your website looks great but receives almost no organic visitors — because it was built without SEO in mind.</p></div>
+  </div>
+</section>
+
+<section id="services" class="sec">
+  <div class="tc"><div class="tag">Our Services</div><h2 class="st">Complete SEO Solutions for <span>Dubai Businesses</span></h2><p class="ss">Every service is designed around one goal: getting your business to the top of Google and keeping it there.</p></div>
+  <div class="sgrid">
+    <div class="sc"><div class="si">📍</div><h3>Local SEO Services Dubai</h3><p>Dominate local search and Google Maps. We optimise every local signal — GBP, citations, NAP consistency, and local content — to put you in front of nearby customers ready to buy.</p><a href="https://seodubaipro.com/local-seo-services-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">🗺️</div><h3>Google My Business SEO Dubai</h3><p>A fully optimised GBP is the foundation of local search success. We handle everything from setup to weekly posts, photos, and review management.</p><a href="https://seodubaipro.com/google-my-business-seo-services-in-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">🔍</div><h3>SEO Audit Dubai</h3><p>Before fixing your rankings you need to know exactly what is holding them back. Our comprehensive audit reveals every issue with a clear, prioritised action plan.</p><a href="https://seodubaipro.com/seo-audit-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">⚙️</div><h3>Technical SEO Service Dubai</h3><p>Hidden technical errors silently kill your rankings. We audit and fix every issue — from crawl errors and page speed to Core Web Vitals and indexing problems.</p><a href="https://seodubaipro.com/technical-seo-service-in-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">📄</div><h3>On Page SEO Service Dubai</h3><p>Every page on your website should work to rank. We optimise titles, headings, content, images, and internal links — making each page a ranking asset.</p><a href="https://seodubaipro.com/onpage-seo-service-in-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">🔗</div><h3>Off Page SEO Services Dubai</h3><p>Authority is built outside your website. We earn high-quality backlinks from trusted UAE and global sources through ethical, white-hat link building strategies.</p><a href="https://seodubaipro.com/off-page-seo-services-in-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">📊</div><h3>Google Search Console Setup</h3><p>We set up, verify, and fully optimise your Search Console — giving you direct insight into how Google sees your website and enabling rapid issue resolution.</p><a href="https://seodubaipro.com/google-search-console-setup-service-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">💎</div><h3>Schema Markup Service Dubai</h3><p>Structured data helps Google earn rich results — star ratings, FAQs, product info — directly in search results, dramatically boosting your click-through rates.</p><a href="https://seodubaipro.com/schema-markup-service-in-dubai/" class="sl">Learn More →</a></div>
+    <div class="sc"><div class="si">🎯</div><h3>Conversion Rate Optimization</h3><p>Traffic without conversions is wasted potential. We analyse user behaviour, optimise landing pages, and remove barriers so more visitors become paying customers.</p><a href="https://seodubaipro.com/conversion-rate-optimization-service-in-dubai/" class="sl">Learn More →</a></div>
+  </div>
+</section>
+
+<section id="why" class="sec">
+  <div class="tc"><div class="tag">Why Choose Us</div><h2 class="st">Why Dubai Businesses Choose <span style="color:var(--cyan)">SEO Dubai Pro</span></h2><p class="ss">We are not a generic agency. We are SEO specialists with deep expertise in the Dubai and UAE market.</p></div>
+  <div class="wgrid">
+    <div class="wc"><div class="wn">01</div><h3>Dubai Market Specialists</h3><p>We understand local search behaviour, Arabic-English intent, and the competitive dynamics unique to the UAE market.</p></div>
+    <div class="wc"><div class="wn">02</div><h3>Transparent Reporting</h3><p>Monthly reports with clear data on rankings, traffic, and ROI. You always know exactly what we are doing and what results it delivers.</p></div>
+    <div class="wc"><div class="wn">03</div><h3>No Lock-In Contracts</h3><p>We earn your business every month with results. No long-term contracts — our 97% retention rate speaks for itself.</p></div>
+    <div class="wc"><div class="wn">04</div><h3>White-Hat Only</h3><p>We use only ethical, Google-approved SEO techniques. Your rankings are built to last — not shortcuts that disappear overnight.</p></div>
+    <div class="wc"><div class="wn">05</div><h3>Dedicated SEO Team</h3><p>You get a dedicated team — not a rotating account manager. Your business receives consistent, expert attention every month.</p></div>
+    <div class="wc"><div class="wn">06</div><h3>Free Site Audit</h3><p>Every engagement starts with a comprehensive free audit — so you know exactly where you stand before investing a single dirham.</p></div>
+  </div>
+</section>
+
+<section id="process" class="sec">
+  <div class="tc"><div class="tag">Our Process</div><h2 class="st">How We Rank Your <span>Business on Google</span></h2><p class="ss">A proven 5-step process that delivers consistent, measurable results for Dubai businesses.</p></div>
+  <div class="psteps">
+    <div class="pstep"><div class="psn">1</div><h3>Free SEO Audit</h3><p>We analyse your website, competitors, and local market to identify every opportunity.</p></div>
+    <div class="pstep"><div class="psn">2</div><h3>Strategy Build</h3><p>A custom SEO roadmap built around your goals, industry, and target audience.</p></div>
+    <div class="pstep"><div class="psn">3</div><h3>Technical Fix</h3><p>We fix every technical issue — speed, crawlability, indexing, and Core Web Vitals.</p></div>
+    <div class="pstep"><div class="psn">4</div><h3>Content &amp; Links</h3><p>Optimised content and authoritative backlinks that build your domain ranking power.</p></div>
+    <div class="pstep"><div class="psn">5</div><h3>Track &amp; Scale</h3><p>We monitor, report, and continuously optimise to maximise results month after month.</p></div>
+  </div>
+</section>
+
+<section id="results" class="sec">
+  <div class="tc"><div class="tag">Real Results</div><h2 class="st">Numbers That <span>Speak for Themselves</span></h2><p class="ss">Real results from real Dubai businesses. This is what consistent, expert SEO delivers.</p></div>
+  <div class="rgrid">
+    <div class="rc"><span class="rn">890%</span><div class="rl">Traffic Increase</div><div class="rd">E-commerce client — 14 months</div></div>
+    <div class="rc"><span class="rn">#1</span><div class="rl">Google Maps Position</div><div class="rd">Multiple clients across industries</div></div>
+    <div class="rc"><span class="rn">AED 520K</span><div class="rl">New Annual Revenue</div><div class="rd">Law firm client — 8 months</div></div>
+    <div class="rc"><span class="rn">340%</span><div class="rl">Average Lead Increase</div><div class="rd">Across all active clients</div></div>
+  </div>
+</section>
+
+<section id="ind" class="sec">
+  <div class="tc"><div class="tag">Industries We Serve</div><h2 class="st">SEO for Every <span>Dubai Industry</span></h2><p class="ss">Page-one rankings for businesses across every major industry in Dubai and the UAE.</p></div>
+  <div class="igrid">
+    <div class="ic"><div class="iicon">🏠</div><div class="iname">Real Estate</div></div>
+    <div class="ic"><div class="iicon">⚕️</div><div class="iname">Healthcare</div></div>
+    <div class="ic"><div class="iicon">⚖️</div><div class="iname">Legal Services</div></div>
+    <div class="ic"><div class="iicon">🍽️</div><div class="iname">Restaurants</div></div>
+    <div class="ic"><div class="iicon">🛒</div><div class="iname">E-Commerce</div></div>
+    <div class="ic"><div class="iicon">💆</div><div class="iname">Beauty &amp; Spa</div></div>
+    <div class="ic"><div class="iicon">🏗️</div><div class="iname">Construction</div></div>
+    <div class="ic"><div class="iicon">📚</div><div class="iname">Education</div></div>
+    <div class="ic"><div class="iicon">✈️</div><div class="iname">Travel &amp; Tourism</div></div>
+    <div class="ic"><div class="iicon">🏦</div><div class="iname">Finance</div></div>
+    <div class="ic"><div class="iicon">🔧</div><div class="iname">Home Services</div></div>
+    <div class="ic"><div class="iicon">🚗</div><div class="iname">Automotive</div></div>
+  </div>
+</section>
+
+<section id="testi" class="sec">
+  <div class="tc"><div class="tag">Client Reviews</div><h2 class="st">What Our <span>Clients Say</span></h2><p class="ss">Real feedback from real businesses who have seen real results with SEO Dubai Pro.</p></div>
+  <div class="tgrid">
+    <div class="tc2"><div class="stars">★★★★★</div><p class="tt">"SEO Dubai Pro transformed our online visibility. We went from page 3 to position 1 on Google Maps in 5 months. New patient enquiries tripled. Best investment we have ever made."</p><div class="ta"><div class="av">A</div><div><div class="an">Ahmed Al Rashidi</div><div class="ar">Medical Clinic Owner, JLT Dubai</div></div></div></div>
+    <div class="tc2"><div class="stars">★★★★★</div><p class="tt">"Our e-commerce store was getting 800 visits per month. After 14 months with SEO Dubai Pro, we are at nearly 8,000 monthly visitors. Revenue from organic search grew by AED 215,000 per month."</p><div class="ta"><div class="av">S</div><div><div class="an">Sara Mahmoud</div><div class="ar">E-Commerce Director, Dubai</div></div></div></div>
+    <div class="tc2"><div class="stars">★★★★★</div><p class="tt">"Transparent, professional, and genuinely expert. Our corporate law firm now ranks #1 for key terms in DIFC. They explain exactly what they are doing and why. Remarkable results."</p><div class="ta"><div class="av">K</div><div><div class="an">Khalid Al Mansouri</div><div class="ar">Managing Partner, Corporate Law Firm</div></div></div></div>
+  </div>
+</section>
+
+<section id="faq" class="sec">
+  <div class="tc"><div class="tag">FAQ</div><h2 class="st">Frequently Asked <span>Questions</span></h2><p class="ss">Everything you need to know about working with SEO Dubai Pro.</p></div>
+  <div class="fl">
+    <div class="fi"><div class="fq">How long does SEO take to show results in Dubai? <span class="fi2">+</span></div><div class="fa">Most clients see initial improvements within 3 to 4 months. Significant results typically develop between months 6 and 12. Competitive Dubai industries may take 12 to 18 months — but results compound and become your most valuable long-term traffic source.</div></div>
+    <div class="fi"><div class="fq">How much do your SEO services cost? <span class="fi2">+</span></div><div class="fa">Our packages are tailored to your specific business, industry, and goals. Monthly retainers start from AED 2,000. Request your free audit first — we will recommend the exact package that fits your situation and budget.</div></div>
+    <div class="fi"><div class="fq">Do you guarantee first-page rankings? <span class="fi2">+</span></div><div class="fa">No ethical SEO agency can guarantee specific rankings — Google's algorithm is controlled by Google. What we guarantee is transparent, ethical, expert work with clear monthly reporting showing exactly what we are doing and the results it produces.</div></div>
+    <div class="fi"><div class="fq">What makes you different from other Dubai SEO agencies? <span class="fi2">+</span></div><div class="fa">We are SEO specialists — not a generalist agency. Every strategy is built specifically for Dubai and UAE, including Arabic-English search behaviour, local citation sources, and competitive dynamics unique to this region. Fully transparent reporting with no hidden activities.</div></div>
+    <div class="fi"><div class="fq">What is included in the free site audit? <span class="fi2">+</span></div><div class="fa">Our free audit covers: technical SEO analysis, current ranking assessment, competitor benchmarking, on-page review, local SEO status, GBP analysis, and a prioritised action plan. Delivered within 24 to 48 hours — completely free, no obligation.</div></div>
+    <div class="fi"><div class="fq">Do you work with businesses outside Dubai? <span class="fi2">+</span></div><div class="fa">Yes — we work across all UAE emirates including Abu Dhabi, Sharjah, Ajman, and Ras Al Khaimah. We also work with international businesses entering the UAE market. Our local expertise applies across the entire region.</div></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Ready to <span>Dominate Google</span> in Dubai?</h2>
+  <p class="csub">Get your free site audit today and discover exactly what it takes to reach the top. No obligation. No sales pressure. Just clear, expert advice.</p>
+  <form class="cf" id="cf" action="https://formspree.io/f/xdappgdq" method="POST">
+    <input type="hidden" name="_subject" value="New SEO Audit Request — SEO Dubai Pro">
+    <div class="fr">
+      <input type="text" name="Name" class="fi3" placeholder="Name*" required>
+      <input type="email" name="Email" class="fi3" placeholder="Email*" required>
+    </div>
+    <div class="fr">
+      <input type="tel" name="Phone" class="fi3" placeholder="Phone / WhatsApp*" required>
+      <select name="Service" class="fs" required>
+        <option value="" disabled selected>Service need support?</option>
+        <option value="Local SEO">Local SEO</option>
+        <option value="Google My Business">Google My Business</option>
+        <option value="Google Search Console">Google Search Console</option>
+        <option value="Technical Audit">Technical Audit</option>
+        <option value="SEO Audit">SEO Audit</option>
+        <option value="CRO Optimization">CRO Optimization</option>
+        <option value="On Page SEO">On Page SEO</option>
+        <option value="Off Page SEO">Off Page SEO</option>
+        <option value="Schema Markup">Schema Markup</option>
+      </select>
+    </div>
+    <textarea name="Message" class="fi3" placeholder="Message..."></textarea>
+    <div class="fm" id="fm"></div>
+    <button type="submit" class="fsub" id="fb">Submit Request</button>
+  </form>
+  <div class="cinfo">
+    <div class="ci"><div class="cico">📧</div><div class="clb">Email</div><div class="cv"><a href="mailto:expert@seodubaipro.com">expert@seodubaipro.com</a></div></div>
+    <div class="ci"><div class="cico">📱</div><div class="clb">WhatsApp</div><div class="cv"><a href="https://wa.me/923442440306">+92 344 244 0306</a></div></div>
+    <div class="ci"><div class="cico">📍</div><div class="clb">Office</div><div class="cv">Iris Bay Tower, Business Bay, Dubai</div></div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="fgrid">
+    <div>
+      <span class="fbrand">SEO Dubai <span>Pro</span></span>
+      <p>Dubai's most trusted SEO agency. We put your business at the top of Google with ethical, data-driven strategies that deliver real, measurable results.</p>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="https://seodubaipro.com/local-seo-services-dubai/">Local SEO Dubai</a></li>
+        <li><a href="https://seodubaipro.com/google-my-business-seo-services-in-dubai/">Google My Business</a></li>
+        <li><a href="https://seodubaipro.com/technical-seo-service-in-dubai/">Technical SEO</a></li>
+        <li><a href="https://seodubaipro.com/seo-audit-dubai/">SEO Audit</a></li>
+        <li><a href="https://seodubaipro.com/onpage-seo-service-in-dubai/">On-Page SEO</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>More Services</h4>
+      <ul>
+        <li><a href="https://seodubaipro.com/off-page-seo-services-in-dubai/">Off-Page SEO</a></li>
+        <li><a href="https://seodubaipro.com/schema-markup-service-in-dubai/">Schema Markup</a></li>
+        <li><a href="https://seodubaipro.com/google-search-console-setup-service-dubai/">Search Console</a></li>
+        <li><a href="https://seodubaipro.com/conversion-rate-optimization-service-in-dubai/">CRO Service</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="https://seodubaipro.com/">Main Website</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="mailto:expert@seodubaipro.com">Get Free Audit</a></li>
+        <li><a href="https://wa.me/923442440306">WhatsApp Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <p>© 2026 SEO Dubai Pro. All Rights Reserved. Office 1402, Iris Bay Tower, Business Bay, Dubai, UAE</p>
+    <div class="fbadges">
+      <span class="fbadge">✓ White-Hat SEO</span>
+      <span class="fbadge">✓ No Lock-In</span>
+      <span class="fbadge">✓ Free Audit</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('ham').addEventListener('click',function(){document.getElementById('mob').classList.toggle('open');});
+document.addEventListener('click',function(e){var m=document.getElementById('mob');if(m.classList.contains('open')&&!m.contains(e.target)&&!document.getElementById('ham').contains(e.target)){m.classList.remove('open');}});
+document.querySelectorAll('#mob a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('mob').classList.remove('open');});});
+document.querySelectorAll('.fq').forEach(function(q){q.addEventListener('click',function(){var i=this.parentElement;var o=i.classList.contains('open');document.querySelectorAll('.fi').forEach(function(el){el.classList.remove('open');});if(!o){i.classList.add('open');}});});
+document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}});});
+var form=document.getElementById('cf'),msg=document.getElementById('fm'),btn=document.getElementById('fb');
+form.addEventListener('submit',async function(e){
+  e.preventDefault();btn.textContent='Sending...';btn.disabled=true;msg.style.display='none';
+  try{
+    var r=await fetch('https://formspree.io/f/xdappgdq',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}});
+    if(r.ok){
+      msg.style.cssText='display:block;background:rgba(22,163,74,.12);color:#16a34a;border:1px solid rgba(22,163,74,.25);border-radius:8px;padding:12px;font-size:14px;font-weight:600;text-align:center;margin-bottom:11px';
+      msg.textContent='✅ Thank you! We will contact you within 24 hours.';
+      form.reset();btn.textContent='Request Sent ✓';btn.style.background='linear-gradient(90deg,#16a34a,#15803d)';
+    }else{throw new Error();}
+  }catch(e){
+    msg.style.cssText='display:block;background:rgba(220,38,38,.08);color:#dc2626;border:1px solid rgba(220,38,38,.2);border-radius:8px;padding:12px;font-size:14px;font-weight:600;text-align:center;margin-bottom:11px';
+    msg.textContent='❌ Something went wrong. Email: expert@seodubaipro.com';
+    btn.textContent='Submit Request';btn.disabled=false;
+  }
+});
+</script>
+</body>
+</html>
